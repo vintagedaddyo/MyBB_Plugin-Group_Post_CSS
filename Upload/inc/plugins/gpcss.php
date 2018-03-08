@@ -35,6 +35,7 @@ function gpcss_info()
 {
 
 //Plugin Description
+
     global $lang;
 
     $lang->load("gpcss");
