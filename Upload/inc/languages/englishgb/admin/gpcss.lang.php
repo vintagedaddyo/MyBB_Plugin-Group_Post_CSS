@@ -1,7 +1,7 @@
 <?php
 /***************************************************************************
  *
- *  Group Post CSS plugin (/inc/languages/english/admin/gpcss.lang.php)
+ *  Group Post CSS plugin (/inc/languages/englishgb/admin/gpcss.lang.php)
  *  Authors: Jammerx2, Vintagedaddyo
  *  Copyright: © 2010
  *  Website:

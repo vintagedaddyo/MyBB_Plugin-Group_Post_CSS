@@ -15,6 +15,13 @@ Version: 2.2
 Author: Vintagedaddyo
 Submitted: 7th March 2018
 
+current localization:
+
+-english
+-spanish
+-french
+-italian
+
 
 
 
