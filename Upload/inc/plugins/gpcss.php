@@ -21,6 +21,8 @@
 if(!defined("IN_MYBB"))
 	die("This file cannot be accessed directly.");
 
+//Add Hooks
+
 $plugins->add_hook('admin_user_groups_edit', 'gpcss');
 $plugins->add_hook('admin_user_groups_edit_commit', 'gpcss_do');
 $plugins->add_hook("postbit_prev", "gpcss_post_prev");
@@ -31,6 +33,8 @@ $plugins->add_hook("postbit", "gpcss_post");
 
 function gpcss_info()
 {
+
+//Plugin Description
     global $lang;
 
     $lang->load("gpcss");
@@ -49,13 +53,15 @@ function gpcss_info()
         'author' => $lang->gpcss_Auth,
         'authorsite' => $lang->gpcss_AuthSite,
         'version' => $lang->gpcss_Ver,
-        'guid' => 'c3456f45ddf1e02b9ed68e1513b50644',
         'compatibility' => $lang->gpcss_Compat
     );
 }
 
 function gpcss_activate()
 {
+
+//Create Tables
+
 global $mybb, $db;
 	$db->query("ALTER TABLE `".TABLE_PREFIX."usergroups` ADD `gpcss1` VARCHAR(1500) NOT NULL");
 	$db->query("ALTER TABLE `".TABLE_PREFIX."usergroups` ADD `gpcss2` VARCHAR(1500) NOT NULL");
@@ -88,6 +94,9 @@ global $mybb, $db;
 
 function gpcss_deactivate()
 {
+
+//Drop Tables
+
 global $mybb, $db;
 	$db->query("ALTER TABLE ".TABLE_PREFIX."usergroups DROP `gpcss1`");
 	$db->query("ALTER TABLE ".TABLE_PREFIX."usergroups DROP `gpcss2`");
@@ -120,6 +129,9 @@ global $mybb, $db;
 
 function gpcss()
 {
+
+//Add Hook
+
 global $plugins;
 $plugins->add_hook("admin_formcontainer_output_row", "gpcss_row");
 }
@@ -142,28 +154,45 @@ global $db, $mybb, $usergroup;
 
 function gpcss_row(&$pluginargs)
 {
+
+//Add Row
+
 global $db, $mybb, $lang, $user, $form, $form_container, $usergroup;
 
     $lang->load("gpcss");
 
 if($pluginargs['title'] == "Miscellaneous")
 {
+	//Setting 1
+
 		$gpcss1 = array(
 			$form->generate_text_area('gpcss1', $usergroup['gpcss1'], array()),
 			);
 		$form_container->output_row("{$lang->gpcss_1_Title}", "{$lang->gpcss_1_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss1)."</div>");
+
+	//Setting 2
+
 		$gpcss2 = array(
 			$form->generate_text_area('gpcss2', $usergroup['gpcss2'], array()),
 			);
 		$form_container->output_row("{$lang->gpcss_2_Title}", "{$lang->gpcss_2_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss2)."</div>");
+
+	//Setting 3
+
 		$gpcss3 = array(
 			$form->generate_text_area('gpcss3', $usergroup['gpcss3'], array()),
 			);
 		$form_container->output_row("{$lang->gpcss_3_Title}", "{$lang->gpcss_3_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss3)."</div>");
+
+	//Setting 4
+
 		$gpcss4 = array(
 			$form->generate_text_area('gpcss4', $usergroup['gpcss4'], array()),
 			);
 		$form_container->output_row("{$lang->gpcss_4_Title}", "{$lang->gpcss_4_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss4)."</div>");
+
+	//Setting 5
+		
 		$gpcss5 = array(
 			$form->generate_text_area('gpcss5', $usergroup['gpcss5'], array()),
 			);
