@@ -162,7 +162,129 @@ global $db, $mybb, $lang, $user, $form, $form_container, $usergroup;
 
     $lang->load("gpcss");
 
+
 if($pluginargs['title'] == "Miscellaneous")
+{
+	//Setting 1
+
+		$gpcss1 = array(
+			$form->generate_text_area('gpcss1', $usergroup['gpcss1'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_1_Title}", "{$lang->gpcss_1_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss1)."</div>");
+
+	//Setting 2
+
+		$gpcss2 = array(
+			$form->generate_text_area('gpcss2', $usergroup['gpcss2'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_2_Title}", "{$lang->gpcss_2_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss2)."</div>");
+
+	//Setting 3
+
+		$gpcss3 = array(
+			$form->generate_text_area('gpcss3', $usergroup['gpcss3'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_3_Title}", "{$lang->gpcss_3_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss3)."</div>");
+
+	//Setting 4
+
+		$gpcss4 = array(
+			$form->generate_text_area('gpcss4', $usergroup['gpcss4'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_4_Title}", "{$lang->gpcss_4_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss4)."</div>");
+
+	//Setting 5
+		
+		$gpcss5 = array(
+			$form->generate_text_area('gpcss5', $usergroup['gpcss5'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_5_Title}", "{$lang->gpcss_5_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss5)."</div>");
+}
+
+
+// Load Espanol Misc
+
+if($pluginargs['title'] == "Misceláneos")
+{
+	//Setting 1
+
+		$gpcss1 = array(
+			$form->generate_text_area('gpcss1', $usergroup['gpcss1'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_1_Title}", "{$lang->gpcss_1_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss1)."</div>");
+
+	//Setting 2
+
+		$gpcss2 = array(
+			$form->generate_text_area('gpcss2', $usergroup['gpcss2'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_2_Title}", "{$lang->gpcss_2_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss2)."</div>");
+
+	//Setting 3
+
+		$gpcss3 = array(
+			$form->generate_text_area('gpcss3', $usergroup['gpcss3'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_3_Title}", "{$lang->gpcss_3_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss3)."</div>");
+
+	//Setting 4
+
+		$gpcss4 = array(
+			$form->generate_text_area('gpcss4', $usergroup['gpcss4'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_4_Title}", "{$lang->gpcss_4_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss4)."</div>");
+
+	//Setting 5
+		
+		$gpcss5 = array(
+			$form->generate_text_area('gpcss5', $usergroup['gpcss5'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_5_Title}", "{$lang->gpcss_5_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss5)."</div>");
+}
+
+// Load French Misc
+
+if($pluginargs['title'] == "Divers")
+{
+	//Setting 1
+
+		$gpcss1 = array(
+			$form->generate_text_area('gpcss1', $usergroup['gpcss1'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_1_Title}", "{$lang->gpcss_1_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss1)."</div>");
+
+	//Setting 2
+
+		$gpcss2 = array(
+			$form->generate_text_area('gpcss2', $usergroup['gpcss2'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_2_Title}", "{$lang->gpcss_2_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss2)."</div>");
+
+	//Setting 3
+
+		$gpcss3 = array(
+			$form->generate_text_area('gpcss3', $usergroup['gpcss3'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_3_Title}", "{$lang->gpcss_3_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss3)."</div>");
+
+	//Setting 4
+
+		$gpcss4 = array(
+			$form->generate_text_area('gpcss4', $usergroup['gpcss4'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_4_Title}", "{$lang->gpcss_4_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss4)."</div>");
+
+	//Setting 5
+		
+		$gpcss5 = array(
+			$form->generate_text_area('gpcss5', $usergroup['gpcss5'], array()),
+			);
+		$form_container->output_row("{$lang->gpcss_5_Title}", "{$lang->gpcss_5_Description}", "<div class=\"group_settings_bit\">".implode("</div><div class=\"group_settings_bit\">", $gpcss5)."</div>");
+}
+
+// Load Italiano Misc
+
+if($pluginargs['title'] == "Varie")
 {
 	//Setting 1
 
