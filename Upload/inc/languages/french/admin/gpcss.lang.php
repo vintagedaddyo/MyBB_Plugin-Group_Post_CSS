@@ -14,43 +14,53 @@
  *
  *  MyBB Version: 1.8
  *
- *  Plugin Version: 2.2
+ *  Plugin Version: 2.3
  *
  ***************************************************************************/
 
 // plugin_info
 
 $l['gpcss_Name'] = ' Group Post CSS';
-$l['gpcss_Desc'] = 'Vous permet d ajouter des CSS personnalisés pour chaque poste de groupe';
+$l['gpcss_Desc'] = 'Vous permet d ajouter des CSS personnalises pour chaque poste de groupe';
 $l['gpcss_Web'] = 'http://community.mybb.com/user-6029.html';
 $l['gpcss_Auth'] = 'Jammerx2 & updated by Vintagedaddyo';
 $l['gpcss_AuthSite'] = 'http://community.mybb.com/user-6029.html';
-$l['gpcss_Ver'] = '2.2';
+$l['gpcss_Ver'] = '2.3';
 $l['gpcss_Compat'] = '18*';
 
 // setting 1
 
 $l['gpcss_1_Title'] = 'Informations sur l auteur de Postbit CSS';
-$l['gpcss_1_Description'] = 'Le CSS qui sera utilisé pour la partie informations sur l auteur de la post-publication.';
+$l['gpcss_1_Description'] = 'Le CSS qui sera utilise pour la partie informations sur l auteur de la post-publication.';
 
 // setting 2
 
 $l['gpcss_2_Title'] = 'Message Message CSS';
-$l['gpcss_2_Description'] = 'Le CSS qui sera utilisé pour la partie message de la post-publication.';
+$l['gpcss_2_Description'] = 'Le CSS qui sera utilise pour la partie message de la post-publication.';
 
 // setting 3
 
 $l['gpcss_3_Title'] = 'Menu bas de la page en CSS';
-$l['gpcss_3_Description'] = 'Le CSS qui sera utilisé pour la partie inférieure du postbit.';
+$l['gpcss_3_Description'] = 'Le CSS qui sera utilise pour la partie inférieure du postbit.';
 
 // setting 4
 
 $l['gpcss_4_Title'] = 'Postbas Menu inférieur CSS (Classic Postbit seulement)';
-$l['gpcss_4_Description'] = 'Le CSS qui sera utilisé pour la partie inférieure du postbit classique.';
+$l['gpcss_4_Description'] = 'Le CSS qui sera utilise pour la partie inferieure du postbit classique.';
 
 // setting 5
 
 $l['gpcss_5_Title'] = 'Message Postbank CSS (Classic Postbit seulement)';
-$l['gpcss_5_Description'] = 'Le CSS qui sera utilisé pour la partie message du postbit classique.';
+$l['gpcss_5_Description'] = 'Le CSS qui sera utilise pour la partie message du postbit classique.';
+
+// setting 6
+
+$l['gpcss_6_Title'] = 'CSS post-frontiere post-frontiere';
+$l['gpcss_6_Description'] = 'Le CSS qui sera utilise pour la partie frontiere du postbit.';
+
+// setting 7
+
+$l['gpcss_7_Title'] = 'CSS post-frontiere post-frontiere (Postbit classique uniquement)';
+$l['gpcss_7_Description'] = 'Le CSS qui sera utilise pour la partie frontiere du postbit classique.';
 	
 ?>

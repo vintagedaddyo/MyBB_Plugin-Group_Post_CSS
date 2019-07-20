@@ -14,7 +14,7 @@
  *
  *  MyBB Version: 1.8
  *
- *  Plugin Version: 2.2
+ *  Plugin Version: 2.3
  *
  ***************************************************************************/
 
@@ -25,13 +25,13 @@ $l['gpcss_Desc'] = 'Ti consente di aggiungere CSS personalizzati per i post di c
 $l['gpcss_Web'] = 'http://community.mybb.com/user-6029.html';
 $l['gpcss_Auth'] = 'Jammerx2 & updated by Vintagedaddyo';
 $l['gpcss_AuthSite'] = 'http://community.mybb.com/user-6029.html';
-$l['gpcss_Ver'] = '2.2';
+$l['gpcss_Ver'] = '2.3';
 $l['gpcss_Compat'] = '18*';
 
 // setting 1
 
 $l['gpcss_1_Title'] = 'CSS per l autore di Postbit';
-$l['gpcss_1_Description'] = 'Il CSS che verrà utilizzato per la parte di informazioni sull autore del postbit.';
+$l['gpcss_1_Description'] = 'Il CSS che verra utilizzato per la parte di informazioni sull autore del postbit.';
 
 // setting 2
 
@@ -41,16 +41,26 @@ $l['gpcss_2_Description'] = 'Il CSS che verrà utilizzato per la parte di messag
 // setting 3
 
 $l['gpcss_3_Title'] = 'Postbit Bottom Menu CSS';
-$l['gpcss_3_Description'] = 'Il CSS che verrà utilizzato per la parte inferiore del postbit.';
+$l['gpcss_3_Description'] = 'Il CSS che verra utilizzato per la parte inferiore del postbit.';
 
 // setting 4
 
 $l['gpcss_4_Title'] = 'Menu in fondo Postbit CSS (solo Postbit classico)';
-$l['gpcss_4_Description'] = 'Il CSS che verrà utilizzato per la parte inferiore del classico postbit.';
+$l['gpcss_4_Description'] = 'Il CSS che verra utilizzato per la parte inferiore del classico postbit.';
 
 // setting 5
 
 $l['gpcss_5_Title'] = 'Postbit Message CSS (solo Classic Postbit)';
-$l['gpcss_5_Description'] = 'Il CSS che verrà usato per la parte del messaggio del classico postbit.';
+$l['gpcss_5_Description'] = 'Il CSS che verra usato per la parte del messaggio del classico postbit.';
+
+// setting 6
+
+$l['gpcss_6_Title'] = 'Postbit Post Border CSS';
+$l['gpcss_6_Description'] = 'Il CSS che verra utilizzato per la parte di confine del postbit.';
+
+// setting 7
+
+$l['gpcss_7_Title'] = 'Postbit Post Border CSS (solo Postbit classico)';
+$l['gpcss_7_Description'] = 'Il CSS che verra utilizzato per la parte di confine del classico postbit.';
 	
 ?>
